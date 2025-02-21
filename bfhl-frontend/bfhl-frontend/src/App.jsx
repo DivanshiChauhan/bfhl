@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/bfhl"; // Change this to deployed backend URL after testing
+const API_URL = "https://bfhll.onrender.com/bfhl";
 
 function App() {
   const [jsonInput, setJsonInput] = useState("");
